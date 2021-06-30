@@ -1,1 +1,26 @@
+.timer {
+  background-color: bisque;
+  width: 400px;
+  display: flex;
+}
 
+.field {
+  display: flex;
+  flex-direction: column;
+  color: rgb(73, 72, 72);
+  padding: 15px;
+  width: 25%;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+.value,
+.anouncement {
+  font-size: 30px;
+  font-weight: 700;
+  align-self: center;
+}
+
+.label {
+  align-self: center;
+}
